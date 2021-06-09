@@ -4,7 +4,8 @@ source('lib.R')
 ###
 
 #NAME <- 'H3K4me3_A549.ENCFF046DTX.hg19.filtered'
-NAME <- 'H3K4me3_A549.ENCFF922TPS.hg19.filtered'
+#NAME <- 'H3K4me3_A549.ENCFF922TPS.hg19.filtered'
+NAME <- 'G4'
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
 ###
