@@ -1,7 +1,8 @@
 setwd("C:\\local files\\bi\\project\\src")
 source('lib.R')
 
-NAME <- 'G4'
+#NAME <- 'G4'
+NAME <- 'H3K4me3_A549.intersect_with_G4'
 
 bed_df <- read.delim(paste0(DATA_DIR, NAME, '.bed'), as.is = TRUE, header = FALSE)
 colnames(bed_df) <- c('chrom', 'start', 'end')
